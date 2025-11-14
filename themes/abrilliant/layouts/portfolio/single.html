@@ -1,0 +1,30 @@
+{{ define "main" }}
+<article class="portfolio-single">
+    <div class="container">
+        <header class="page-header">
+            <h1>{{ .Title }}</h1>
+            {{ if .Params.description }}
+            <p class="subtitle">{{ .Params.description }}</p>
+            {{ end }}
+        </header>
+        
+        <div class="portfolio-content">
+            {{ .Content }}
+            
+            {{ if .Params.gallery }}
+            <div class="photo-grid">
+                {{ range .Params.gallery }}
+                <div class="photo-grid-item">
+                    <img src="{{ . }}" alt="Gallery image">
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+
+        <div class="portfolio-navigation">
+            <a href="/portfolio/" class="back-link">← Back to Portfolio</a>
+        </div>
+    </div>
+</article>
+{{ end }}

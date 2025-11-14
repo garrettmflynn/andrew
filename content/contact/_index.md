@@ -1,44 +1,60 @@
 ---
-title: "Get In Touch"
+title: "Connect!"
 description: "Let's discuss your next project"
 ---
 
-## Contact Us
+## Be Brilliant.
 
-We'd love to hear about your project. Whether you have a clear vision or just an idea, we're here to help bring it to life.
+Our client process begins with a complimentary consultation to discuss your project in depth.
 
-### Reach Out
-
-**Email**: info@abrilliantfilm.com
-
-### Let's Connect
-
-We typically respond to inquiries within 24 hours. When reaching out, please include:
-
-- A brief description of your project
-- Your timeline
-- Your budget range (if applicable)
-- Any specific requirements or ideas you have in mind
-
-### Follow Our Work
-
-Stay updated with our latest projects and behind-the-scenes content on social media.
+We are based in Los Angeles, CA + available for travel
 
 ---
 
-## Frequently Asked Questions
+<form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+  <div class="form-row">
+    <div class="form-group">
+      <label for="firstName">First Name *</label>
+      <input type="text" id="firstName" name="firstName" required>
+    </div>
+    <div class="form-group">
+      <label for="lastName">Last Name *</label>
+      <input type="text" id="lastName" name="lastName" required>
+    </div>
+  </div>
 
-**What is your typical turnaround time?**  
-Turnaround time varies depending on the scope of the project. We'll provide a detailed timeline during our initial consultation.
 
-**Do you travel for projects?**  
-Yes! We're available for projects locally and are happy to travel for the right opportunity.
 
-**What equipment do you use?**  
-We use professional-grade cameras, lenses, lighting, and audio equipment. Specific gear is selected based on each project's needs.
+  <div class="form-group">
+    <label for="email">Email *</label>
+    <input type="email" id="email" name="email" required>
+  </div>
 
-**Can you work within my budget?**  
-We offer flexible packages and are happy to work with various budget ranges. Contact us to discuss what's possible for your project.
+  <div class="form-group">
+    <label for="service">Type of service(s) desired *</label>
+    <select id="service" name="service" required>
+      <option value="">Choose an option</option>
+      <option value="Film Production">Film Production</option>
+      <option value="Videography">Videography</option>
+      <option value="Photography">Photography</option>
+      <option value="Post-Production">Post-Production</option>
+      <option value="Multiple Services">Multiple Services</option>
+    </select>
+  </div>
 
-**Do you offer rush services?**  
-Yes, rush services are available for an additional fee, subject to our availability.
+  <div class="form-group">
+    <label for="shootDate">Desired shoot date *</label>
+    <input type="date" id="shootDate" name="shootDate" required>
+  </div>
+
+  <div class="form-group">
+    <label for="message">Additional notes</label>
+    <textarea id="message" name="message" rows="5"></textarea>
+  </div>
+
+  <button type="submit" class="submit-button">Send Message</button>
+</form>
+
+<div class="contact-info">
+  <p>Or email us directly at: <a href="mailto:info@abrilliantfilm.com">info@abrilliantfilm.com</a></p>
+</div>

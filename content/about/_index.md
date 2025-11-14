@@ -1,27 +1,12 @@
 ---
-title: "About A Brilliant Film"
-description: "Learn about our passion for visual storytelling"
+title: "About Brilliant"
+description: "Learn about Andrew Brilliant and A.BRILLIANT FILM"
 ---
 
-## Our Story
+## Andrew Brilliant
 
-A Brilliant Film is a creative production company specializing in film, photography, and videography. Founded by Andrew, a passionate visual storyteller, we bring years of experience and artistic vision to every project.
+Andrew Brilliant is the founder of A.BRILLIANT FILM, a full-service film and photo production company based in Los Angeles, CA.
 
-## Our Approach
+Andrew picked up the camera for the first time at the young age of 11. He has since explored visual media of multiple formats, refining his artistic style and rhetoric to continue defining tomorrow's content.
 
-We believe that every project deserves a unique approach. Whether we're capturing a documentary, producing a commercial, or photographing an event, we focus on telling authentic stories that resonate with audiences.
-
-### What Sets Us Apart
-
-- **Creative Vision**: We approach every project with fresh eyes and innovative ideas
-- **Technical Excellence**: Using state-of-the-art equipment and techniques
-- **Collaborative Process**: Working closely with clients to bring their vision to life
-- **Attention to Detail**: Ensuring every frame is thoughtfully composed and executed
-
-## Our Mission
-
-To create brilliant visual content that not only meets but exceeds expectations. We're committed to delivering high-quality work that tells compelling stories and leaves lasting impressions.
-
-## Let's Work Together
-
-Whether you're looking for a documentary filmmaker, commercial videographer, or professional photographer, we'd love to hear about your project. [Get in touch](/contact/) to discuss how we can help bring your vision to life.
+Andrew graduated from the University of Southern California, Magna Cum Laude, where he designed his own major to research Type 1 Diabetes and Cinematic Arts. He was a resident photographer and writer for Haute Magazine, USC's premiere couture fashion publication. Andrew also served as President of WorkBench, a leading university startup incubator across the nation.

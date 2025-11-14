@@ -1,12 +1,15 @@
 baseURL = 'https://www.abrilliantfilm.com/'
 languageCode = 'en-us'
-title = 'A Brilliant Film'
+title = 'A.BRILLIANT FILM'
 theme = 'abrilliant'
 
 [params]
-  description = 'Professional film production, photography, and videography services'
-  author = 'Andrew - A Brilliant Film'
+  description = 'Multi-media storytellers based in Los Angeles, CA'
+  author = 'Andrew Wyatt Brilliant'
+  tagline = 'MULTI-MEDIA STORYTELLERS'
+  location = 'Based in Los Angeles, CA'
   email = 'info@abrilliantfilm.com'
+  copyright = 'PROPERTY OF ANDREW WYATT BRILLIANT'
 
   # Social media links (customize as needed)
   [params.social]
@@ -17,25 +20,17 @@ theme = 'abrilliant'
 
 [menu]
   [[menu.main]]
-    name = 'Home'
-    url = '/'
-    weight = 1
-  [[menu.main]]
     name = 'Portfolio'
     url = '/portfolio/'
-    weight = 2
-  [[menu.main]]
-    name = 'Services'
-    url = '/services/'
-    weight = 3
-  [[menu.main]]
-    name = 'About'
-    url = '/about/'
-    weight = 4
+    weight = 1
   [[menu.main]]
     name = 'Contact'
     url = '/contact/'
-    weight = 5
+    weight = 2
+  [[menu.main]]
+    name = 'About'
+    url = '/about/'
+    weight = 3
 
 [markup]
   [markup.goldmark]

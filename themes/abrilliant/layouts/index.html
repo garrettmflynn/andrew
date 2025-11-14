@@ -1,47 +1,61 @@
 {{ define "main" }}
 <section class="hero">
     <div class="hero-content">
-        <h2>Creating Brilliant Visual Stories</h2>
-        <p>Professional Film Production, Photography & Videography</p>
-        <a href="/portfolio/" class="cta-button">View Our Work</a>
+        <p class="hero-tagline">{{ .Site.Params.tagline }}</p>
+        <h2>{{ .Site.Title }}</h2>
+        <p class="hero-location">{{ .Site.Params.location }}</p>
+    </div>
+</section>
+
+<section class="showreel-section section">
+    <div class="container">
+        <h2>Cinematic Showreel</h2>
+        <div class="video-container">
+            <iframe src="https://player.vimeo.com/video/1010122643?title=0&autopause=0&app_id=122963"
+                    frameborder="0"
+                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    title="Andrew Brilliant Cinematic Showreel"
+                    allowfullscreen>
+            </iframe>
+        </div>
     </div>
 </section>
 
 <section class="intro section">
     <div class="container">
-        <h2>Welcome to A Brilliant Film</h2>
+        <h2>Creating Brilliant Visual Stories</h2>
         <p>We specialize in creating compelling visual content that tells your story. From documentary filmmaking to commercial productions, our team brings creativity and technical expertise to every project.</p>
     </div>
 </section>
 
 <section class="services-preview section">
     <div class="container">
-        <h2>Our Services</h2>
+        <h2>What We Offer</h2>
         <div class="services-grid">
             <div class="service-card">
                 <h3>Film Production</h3>
-                <p>Full-service film production from concept to final delivery</p>
+                <p>Full-service film production from concept to final delivery, including documentaries, narratives, and brand films.</p>
             </div>
             <div class="service-card">
                 <h3>Videography</h3>
-                <p>Professional video production for events, commercials, and more</p>
+                <p>Professional video production for events, commercials, social media content, and corporate videos.</p>
             </div>
             <div class="service-card">
                 <h3>Photography</h3>
-                <p>Stunning photography for all occasions and purposes</p>
+                <p>Stunning photography for fashion, portraits, events, landscapes, and commercial work.</p>
             </div>
             <div class="service-card">
                 <h3>Post-Production</h3>
-                <p>Expert editing, color grading, and finishing services</p>
+                <p>Expert editing, color grading, sound design, and finishing services to perfect your project.</p>
             </div>
         </div>
-        <a href="/services/" class="section-link">Learn More About Our Services →</a>
     </div>
 </section>
 
 <section class="portfolio-preview section">
     <div class="container">
-        <h2>Recent Work</h2>
+        <h2>Photo Portfolio</h2>
         <div class="portfolio-grid">
             {{ range first 6 (where .Site.RegularPages "Section" "portfolio") }}
             <div class="portfolio-item">
@@ -58,9 +72,10 @@
 
 <section class="cta-section section">
     <div class="container">
-        <h2>Let's Create Something Brilliant Together</h2>
-        <p>Ready to bring your vision to life?</p>
-        <a href="/contact/" class="cta-button">Get In Touch</a>
+        <h2>Be Brilliant.</h2>
+        <p>Our client process begins with a complimentary consultation to discuss your project in depth.</p>
+        <p class="cta-location">We are based in Los Angeles, CA + available for travel</p>
+        <a href="/contact/" class="cta-button">Connect!</a>
     </div>
 </section>
 {{ end }}
