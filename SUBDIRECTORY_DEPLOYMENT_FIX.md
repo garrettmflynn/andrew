@@ -50,6 +50,10 @@ Changed internal links to use `relURL`:
 <a href="{{ "portfolio/" | relURL }}">View Portfolio</a>
 ```
 
+Applied to:
+- Static links in templates
+- Menu links in header partial
+
 ### 4. Updated Menu URLs
 
 **File**: `hugo.toml`
@@ -237,7 +241,9 @@ Make sure you're using:
 | `layouts/index.html` | Added `relURL` to internal links | Ensures links work in subdirectory |
 | `layouts/_default/list.html` | Added `relURL` to images | Same as above |
 | `layouts/portfolio/single.html` | Added `relURL` to gallery images and links | Same as above |
-| `.github/workflows/deploy.yml` | Removed `--baseURL` flag override | Allows Hugo to use baseURL from hugo.toml |
+| `layouts/partials/header.html` | Added `relURL` to menu URLs | Fixes navigation from nested pages |
+| `content/portfolio/*.md` | Removed leading slashes from image paths | Allows relURL to work correctly |
+| `.github/workflows/deploy.yml` | Kept `--baseURL` flag with Pages output | Uses authoritative deployment URL from GitHub |
 
 ---
 
