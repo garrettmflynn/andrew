@@ -2,22 +2,22 @@
 title: "Faces"
 date: 2024-11-09
 description: "Portrait photography capturing authentic moments"
-image: "/images/portfolio/placeholder-2.svg"
+image: "images/portfolio/placeholder-2.svg"
 categories: ["Photography", "Portraits"]
 draft: false
 gallery:
-  - "/images/portfolio/placeholder-2.svg"
-  - "/images/portfolio/placeholder-1.svg"
-  - "/images/portfolio/placeholder-3.svg"
-  - "/images/portfolio/placeholder-2.svg"
-  - "/images/portfolio/placeholder-1.svg"
-  - "/images/portfolio/placeholder-3.svg"
-  - "/images/portfolio/placeholder-2.svg"
-  - "/images/portfolio/placeholder-1.svg"
-  - "/images/portfolio/placeholder-3.svg"
-  - "/images/portfolio/placeholder-2.svg"
-  - "/images/portfolio/placeholder-1.svg"
-  - "/images/portfolio/placeholder-3.svg"
+  - "images/portfolio/placeholder-2.svg"
+  - "images/portfolio/placeholder-1.svg"
+  - "images/portfolio/placeholder-3.svg"
+  - "images/portfolio/placeholder-2.svg"
+  - "images/portfolio/placeholder-1.svg"
+  - "images/portfolio/placeholder-3.svg"
+  - "images/portfolio/placeholder-2.svg"
+  - "images/portfolio/placeholder-1.svg"
+  - "images/portfolio/placeholder-3.svg"
+  - "images/portfolio/placeholder-2.svg"
+  - "images/portfolio/placeholder-1.svg"
+  - "images/portfolio/placeholder-3.svg"
 ---
 
 ## Faces

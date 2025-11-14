@@ -2,16 +2,16 @@
 title: "Print + Model"
 date: 2024-11-10
 description: "Fashion and model photography"
-image: "/images/portfolio/placeholder-1.svg"
+image: "images/portfolio/placeholder-1.svg"
 categories: ["Photography", "Fashion"]
 draft: false
 gallery:
-  - "/images/portfolio/placeholder-1.svg"
-  - "/images/portfolio/placeholder-2.svg"
-  - "/images/portfolio/placeholder-3.svg"
-  - "/images/portfolio/placeholder-1.svg"
-  - "/images/portfolio/placeholder-2.svg"
-  - "/images/portfolio/placeholder-3.svg"
+  - "images/portfolio/placeholder-1.svg"
+  - "images/portfolio/placeholder-2.svg"
+  - "images/portfolio/placeholder-3.svg"
+  - "images/portfolio/placeholder-1.svg"
+  - "images/portfolio/placeholder-2.svg"
+  - "images/portfolio/placeholder-3.svg"
 ---
 
 ## Print + Model
