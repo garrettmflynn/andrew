@@ -145,3 +145,27 @@ git push
 5. **Customize colors** if desired
 
 That's it! Your site showcases both the original content AND demonstrates what's possible with the new flexible Hugo system.
+
+---
+
+## 🔧 Important: Deployment URL
+
+**Current Configuration**: Site is configured for `https://garrettflynn.com/andrew/`
+
+### To deploy to the final domain (abrilliantfilm.com):
+
+1. Update `hugo.toml`:
+```toml
+baseURL = 'https://www.abrilliantfilm.com/'
+```
+
+2. Rebuild:
+```bash
+hugo --minify
+```
+
+3. Deploy to your production server or GitHub Pages
+
+All images and links will automatically adjust thanks to the `relURL` filters in the templates.
+
+See **SUBDIRECTORY_DEPLOYMENT_FIX.md** for complete details.
