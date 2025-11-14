@@ -185,16 +185,20 @@ The workflow uses the Pages output URL, which should match your `hugo.toml` base
 
 ## Image Paths in Content
 
-Portfolio item markdown files use absolute paths from site root:
+**IMPORTANT**: Portfolio item markdown files must use paths WITHOUT leading slashes:
 
 ```yaml
-image: "/images/portfolio/placeholder-1.svg"
+# CORRECT - paths without leading slash
+image: "images/portfolio/placeholder-1.svg"
 gallery:
-  - "/images/portfolio/photo1.jpg"
-  - "/images/portfolio/photo2.jpg"
+  - "images/portfolio/photo1.jpg"
+  - "images/portfolio/photo2.jpg"
+
+# WRONG - paths with leading slash
+image: "/images/portfolio/placeholder-1.svg"  # ❌ Will not work with relURL
 ```
 
-**This is correct** - Hugo's `relURL` filter in the templates converts these to the proper paths during build.
+**Why?** Hugo's `relURL` filter treats paths starting with `/` as absolute from the domain root, ignoring the baseURL. Paths without leading slashes are treated as relative and correctly converted to `/andrew/images/...` during build.
 
 ---
 
