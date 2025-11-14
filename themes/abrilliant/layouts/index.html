@@ -60,13 +60,13 @@
             {{ range first 6 (where .Site.RegularPages "Section" "portfolio") }}
             <div class="portfolio-item">
                 {{ if .Params.image }}
-                <img src="{{ .Params.image }}" alt="{{ .Title }}">
+                <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
                 {{ end }}
                 <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
             </div>
             {{ end }}
         </div>
-        <a href="/portfolio/" class="section-link">View Full Portfolio →</a>
+        <a href="{{ "portfolio/" | relURL }}" class="section-link">View Full Portfolio →</a>
     </div>
 </section>
 
@@ -75,7 +75,7 @@
         <h2>Be Brilliant.</h2>
         <p>Our client process begins with a complimentary consultation to discuss your project in depth.</p>
         <p class="cta-location">We are based in Los Angeles, CA + available for travel</p>
-        <a href="/contact/" class="cta-button">Connect!</a>
+        <a href="{{ "contact/" | relURL }}" class="cta-button">Connect!</a>
     </div>
 </section>
 {{ end }}

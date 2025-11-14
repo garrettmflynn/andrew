@@ -17,7 +17,7 @@
                 <div class="item-card">
                     {{ if .Params.image }}
                     <div class="item-image">
-                        <img src="{{ .Params.image }}" alt="{{ .Title }}">
+                        <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
                     </div>
                     {{ end }}
                     <div class="item-content">

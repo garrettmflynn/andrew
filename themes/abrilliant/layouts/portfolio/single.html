@@ -15,7 +15,7 @@
             <div class="photo-grid">
                 {{ range .Params.gallery }}
                 <div class="photo-grid-item">
-                    <img src="{{ . }}" alt="Gallery image">
+                    <img src="{{ . | relURL }}" alt="Gallery image">
                 </div>
                 {{ end }}
             </div>
@@ -23,7 +23,7 @@
         </div>
 
         <div class="portfolio-navigation">
-            <a href="/portfolio/" class="back-link">← Back to Portfolio</a>
+            <a href="{{ "portfolio/" | relURL }}" class="back-link">← Back to Portfolio</a>
         </div>
     </div>
 </article>

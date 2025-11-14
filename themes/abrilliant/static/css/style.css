@@ -183,8 +183,6 @@ body {
     overflow: hidden;
     max-width: 900px;
     margin: 0 auto;
-    background: var(--primary-color);
-    border: 1px solid var(--border-color);
 }
 
 .video-container iframe {
