@@ -1,0 +1,43 @@
+baseURL = 'https://www.abrilliantfilm.com/'
+languageCode = 'en-us'
+title = 'A Brilliant Film'
+theme = 'abrilliant'
+
+[params]
+  description = 'Professional film production, photography, and videography services'
+  author = 'Andrew - A Brilliant Film'
+  email = 'info@abrilliantfilm.com'
+
+  # Social media links (customize as needed)
+  [params.social]
+    instagram = ''
+    vimeo = ''
+    youtube = ''
+    linkedin = ''
+
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = 'Portfolio'
+    url = '/portfolio/'
+    weight = 2
+  [[menu.main]]
+    name = 'Services'
+    url = '/services/'
+    weight = 3
+  [[menu.main]]
+    name = 'About'
+    url = '/about/'
+    weight = 4
+  [[menu.main]]
+    name = 'Contact'
+    url = '/contact/'
+    weight = 5
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

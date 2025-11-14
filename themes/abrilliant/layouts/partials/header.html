@@ -1,0 +1,27 @@
+<header class="site-header">
+    <div class="container">
+        <div class="header-content">
+            <a href="{{ .Site.BaseURL }}" class="logo">
+                <h1>{{ .Site.Title }}</h1>
+            </a>
+            
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <nav class="main-nav">
+                <ul>
+                    {{ range .Site.Menus.main }}
+                    <li>
+                        <a href="{{ .URL }}" {{ if $.IsMenuCurrent "main" . }}class="active"{{ end }}>
+                            {{ .Name }}
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>

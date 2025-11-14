@@ -1,0 +1,8 @@
+name = "A Brilliant"
+license = "MIT"
+description = "Custom theme for A Brilliant Film production company"
+homepage = "https://www.abrilliantfilm.com/"
+min_version = "0.100.0"
+
+[author]
+  name = "A Brilliant Film"
